@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="page">
+    <div class="converter">
+        <h2>Convertisseur</h2>
+        <label for="numberInput">Nombre:</label>
+        <input type="text" id="numberInput" placeholder="Entrez un nombre" class="inputNumb">
+
+        <label for="baseSelect">Base de départ:</label>
+        <select id="baseSelect">
+            <option value="2">2</option>
+            <option value="4">4</option>
+            <option value="6">6</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+            <option value="16">16</option>
+        </select>
+
+        <label for="resultBaseSelect">Base de destination:</label>
+        <select id="resultBaseSelect">
+          <option value="2">2</option>
+          <option value="4">4</option>
+          <option value="6">6</option>
+          <option value="8">8</option>
+          <option value="10">10</option>
+          <option value="16">16</option>
+        </select>
+
+        <button onclick="convert()">Convertir</button>
+
+        <p>Résultat: <span id="result"></span></p>
+    </div>
+
+      <div class="nom">
+        <p> par Hantaou Karim </p>
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #212121;
+}
+
+.page {
+  display: flex;
+  flex-direction: column; /* Empilez les éléments verticalement */
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.converter {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    border: 0px solid;
+    border-radius: 20px;
+    background-color: white;
+    padding: 25px;
+}
+
+.nom {
+  text-align: center;
+  color : white;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+input, select {
+    text-align: center;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.inputNumb {
+  width: 90%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
